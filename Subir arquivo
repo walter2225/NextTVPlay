@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NextTVPlay</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>NextTVPlay</h1>
+    <p>Sua melhor escolha em IPTV – Qualidade, Estabilidade e Preço Justo!</p>
+  </header>
+
+  <section class="planos">
+    <div class="plano">
+      <h2>Plano Mensal</h2>
+      <p class="preco">R$40</p>
+      <p>1 mês de acesso completo</p>
+    </div>
+    <div class="plano">
+      <h2>Plano Trimestral</h2>
+      <p class="preco">R$95</p>
+      <p>3 meses de acesso completo</p>
+    </div>
+    <div class="plano">
+      <h2>Plano Anual</h2>
+      <p class="preco">R$230</p>
+      <p>12 meses de acesso completo</p>
+    </div>
+  </section>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/5565993617998" target="_blank">Fale conosco no WhatsApp</a>
+    <p>Aceitamos PIX e Cartão</p>
+  </div>
+
+  <section class="depoimentos">
+    <h3>O que nossos clientes dizem:</h3>
+    <ul>
+      <li>“Imagem perfeita, sem travar! O melhor IPTV que já usei.” – <strong>Lucas M.</strong></li>
+      <li>“Atendimento rápido e suporte top, recomendo demais!” – <strong>Ana C.</strong></li>
+      <li>“Preço justo e muitos canais! Muito satisfeito.” – <strong>João F.</strong></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 NextTVPlay. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
