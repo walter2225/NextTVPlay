@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+}
+h1 {
+  color: #00ff88;
+}
+.planos {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #111;
+}
+.plano {
+  background-color: #222;
+  padding: 1rem;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+.preco {
+  font-size: 2rem;
+  color: #00ff88;
+}
+.whatsapp {
+  text-align: center;
+  margin: 2rem;
+}
+.whatsapp a {
+  background-color: #00ff88;
+  padding: 1rem 2rem;
+  color: #000;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.depoimentos {
+  background-color: #111;
+  padding: 2rem;
+}
+.depoimentos ul {
+  list-style: none;
+  padding: 0;
+}
+.depoimentos li {
+  background-color: #222;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  background-color: #000;
+}
