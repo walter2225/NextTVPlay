@@ -1,66 +1,53 @@
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: sans-serif;
+  background: #121212;
+  color: #fff;
 }
+
 header {
+  background: #1f1f1f;
   text-align: center;
   padding: 2rem;
-  background-color: #111;
 }
-h1 {
-  color: #00ff88;
-}
+
 .planos {
-  display: flex;
-  justify-content: space-around;
   padding: 2rem;
-  background-color: #111;
+  text-align: center;
 }
-.plano {
-  background-color: #222;
+
+.card {
+  background: #222;
+  margin: 1rem auto;
   padding: 1rem;
-  border: 2px solid #00ff88;
   border-radius: 10px;
-  width: 30%;
-  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 10px #000;
 }
-.preco {
-  font-size: 2rem;
-  color: #00ff88;
+
+.card h3 {
+  margin-top: 0;
 }
-.whatsapp {
-  text-align: center;
-  margin: 2rem;
-}
-.whatsapp a {
-  background-color: #00ff88;
-  padding: 1rem 2rem;
-  color: #000;
+
+.card .tag {
+  color: gold;
   font-weight: bold;
-  border-radius: 25px;
+  margin-bottom: 1rem;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #25D366;
+  color: white;
   text-decoration: none;
+  border-radius: 5px;
 }
-.depoimentos {
-  background-color: #111;
-  padding: 2rem;
-}
-.depoimentos ul {
-  list-style: none;
-  padding: 0;
-}
-.depoimentos li {
-  background-color: #222;
-  margin: 1rem 0;
-  padding: 1rem;
-  border-radius: 8px;
-}
+
 footer {
+  background: #1f1f1f;
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  color: #aaa;
-  background-color: #000;
 }
